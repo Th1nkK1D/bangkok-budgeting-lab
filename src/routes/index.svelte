@@ -25,27 +25,29 @@
 	<section>
 		<h1>Why?</h1>
 		<p>
-			Bangkok Budgeting Lab aim to create multi-stackholder co-creation environment to tackle
-			Bangkok bugeting and tax system, focusing on 2 main issues:
+			Bangkok Budgeting Lab aims to create multi-stakeholder co-creation environment to tackle
+			Bangkok's budgeting and tax system, focusing on 2 main issues:
 		</p>
 		<ol>
-			<li>Tax usage transparency and trust issue with government</li>
+			<li>Tax usage transparency and trust issues with government</li>
 			<li>Lack of public service provider mindset from the government</li>
 		</ol>
 		<div class="img-col">
 			<img src="/images/suchat.webp" alt="Suchat" class="w-36 h-36 rounded-full" />
 			<p>
 				Meet <strong>Suchat</strong>, 25 years old Thai male who lives in Bangkok. He works as a
-				freelance programmer for 3 years. His family is a lower-middle class living in suburban
-				province. He understand Thailand socio-political situation well since the military coup in
-				2014.
+				freelance programmer for 3 years. His family is a lower-middle-class living in a suburban
+				province. He understands Thailand's socio-political situation well since the military coup
+				in 2014.
 			</p>
 		</div>
 		<blockquote>
 			“I'm against Military government. They abuse their power for corruption and suppress citizen
 			rights”
 		</blockquote>
-		<p>Suchart, as other Thai citizen, need to pay the tax and declare the income every year.</p>
+		<p>
+			Suchart, like other Thai citizens, needs to pay the tax and declare their income every year.
+		</p>
 		<blockquote>
 			“I never know how they use my tax. I don't trust them so I'll try to deduct my tax as much as
 			possible. They are more like a Mafia trying to get our money than a service provider”
@@ -55,27 +57,27 @@
 	<section>
 		<h1>Stakeholders</h1>
 		<p>
-			There are several stakeholders who related to bangkok bugeting and tax system. We analyse
-			their power and supportiveness to find the allies.
+			There are several stakeholders who are related to Bangkok's budgeting and tax system. We
+			analyze their power and supportiveness to find the allies.
 		</p>
 		<img src="/images/stakeholders.webp" alt="Stakeholders" class="w-full h-auto" />
 		<p>According to the diagram, our living lab will work closely with 4 groups of stakeholders</p>
 		<ul>
 			<li>
-				<strong>Government</strong> - We will work closely with opsition parties who can provide public
-				policy domain knowledges and pushing related policy in the paliament.
+				<strong>Government</strong> - We will work closely with opposition parties who can provide public
+				policy domain knowledge and push related policy in the parliament.
 			</li>
 			<li>
-				<strong>Industry</strong> - Technology company can support us with technical staff and knowledges,
-				while social media and modern media company can raise our project for broader awareness.
+				<strong>Industry</strong> - Technology companies can support us with technical staff and knowledge,
+				while social media and modern media companies can raise our project for broader awareness.
 			</li>
 			<li>
-				<strong>Academia</strong> - Educational institute can use our living lab as a real-world learning
-				environment for students while academic will be useful during the project development.
+				<strong>Academia</strong> - Educational institutes can use our living lab as a real-world learning
+				environment for students while academics will be useful during the project development.
 			</li>
 			<li>
-				<strong>Citizen</strong> - Everyone pay the tax. We are the expert of our own pain. Living lab
-				is open to everyone who want to get involve, to make our city become a better place.
+				<strong>Citizen</strong> - Everyone pays the tax. We are the expert on our own pain. The living
+				lab is open to everyone who wants to get involved, to make our city become a better place.
 			</li>
 		</ul>
 	</section>
@@ -85,9 +87,9 @@
 		<div class="img-col">
 			<div>
 				<p>
-					We will be an <i>"enabler-driven"</i> living lab by facilitates
-					<i>"strategy development through action"</i>
-					using Quadruble Helix model.
+					We will be an "enabler-driven" living lab by facilitating "strategy development through
+					action" using the Quadruple Helix model. BBL will act as a "broker and connector" between
+					the 4 main groups of stakeholders.
 				</p>
 				<p>
 					BBL will act as a <i>"broker and connector"</i> between the 4 main group of stakeholders.
@@ -99,21 +101,23 @@
 			<img src="images/formit.webp" alt="FormIT Adaptation" />
 			<div>
 				<p>
-					BBL project development process is adapted from <a
+					BBL project development process is adapted from the <a
 						href="https://www.ltu.se/cms_fs/1.101555!/file/LivingLabsMethodologyBook_web.pdf"
 						target="_blank">FormIT process by Luleå University of Technology</a
-					> which inspired by Agile methodogy from software development field and Lean methodology from
-					bussiness field.
+					> which was inspired by Agile methodology from the software development field and Lean methodology
+					from the business field. Each iteration will include opportunities for appreciation, designing,
+					and evaluation while making sure that public value, policy, and technology aspects will be
+					a concern throughout the process.
 				</p>
 				<p>
-					The iterative process allow iterative incrementation where idea will getting more and more
-					concreate in each iteration. From concept, prototype, innovation, to policy
+					The iterative process allows iterative incrementation where the idea will get more and
+					more concrete in each iteration. From concept, prototype, and innovation, to policy
 					implementation.
 				</p>
 				<p>
-					Each iteration will include opportunities appreciation, designing, and evaluation while
-					making sure that public value, policy and technology aspect will be concern throught out
-					the process.
+					Each iteration will include opportunities for appreciation, designing, and evaluation
+					while making sure that public value, policy, and technology aspects will be a concern
+					throughout the process.
 				</p>
 			</div>
 		</div>
@@ -124,8 +128,8 @@
 						href="https://www.ed.ac.uk/sustainability/what-we-do/research/initiatives/the-university-as-a-living-lab/toolkit"
 						target="_blank"
 						>EEL toolkits designed by The University of Edinburgh and Edinburgh Living Lab</a
-					> will be use during the planning phase to cover important aspect related to data related project.
-					EEL toolkits includes
+					> will be used during the planning phase to cover important aspects related to the data-related
+					project. EEL toolkits include
 				</p>
 				<ol>
 					<li>Identifying and formulating a project</li>
@@ -151,9 +155,9 @@
 	<section>
 		<h1>Location</h1>
 		<p>
-			BBL Living Lap located at the renovated area of Wangmai district next to Chulalonkorn
-			University, our partner. The location is in the center of Bangkok with convenience public
-			transporation from both Sky Train and Metro
+			Bangkok Budgeting Lab is located in the renovated area of Wangmai district next to
+			Chulalongkorn University, our partner. The location is in the center of Bangkok with
+			convenient public transportation from both Sky Train and Metro
 		</p>
 		<iframe
 			title="Location"
@@ -163,7 +167,8 @@
 			class="border-none w-full h-128 mb-2"
 		/>
 		<p>
-			Building will be renovated as a collaboration space and event area with all the facilities.
+			The building will be renovated as a collaboration space and event area with all the
+			facilities.
 		</p>
 		<Gallery hover loading="lazy">
 			<img
@@ -186,10 +191,10 @@
 		<h1>Action Plans</h1>
 		<GanttChart />
 		<p>
-			The first year will be focus on preparation tasks including space, team and stakeholders.
-			Marketing and public activities will be start in the 2<sup>nd</sup> year. The living lab will
-			be fully operational from the 3<sup>rd</sup> year which will include the following activities in
-			a year period.
+			The first year will focus on preparation tasks including space, team, and stakeholders.
+			Marketing and public activities will start in the 2<sup>nd</sup> year. The living lab will be
+			fully operational from the 3<sup>rd</sup> year which will include the following activities in a
+			year period.
 		</p>
 		<ol>
 			<li>
@@ -201,11 +206,11 @@
 				output into a long-term impactful solution.
 			</li>
 			<li>
-				<strong>Conference: showcase to stakeholder and public</strong> - Use conference to create an
-				awareness of innovation among important stakholders.
+				<strong>Conference: showcase to stakeholder and public</strong> - Use the conference to create
+				an awareness of innovation among important stakeholders.
 			</li>
 			<li>
-				<strong> Media campaign from showcase</strong> - Use media partner to create awareness of innovation
+				<strong> Media campaign from showcase</strong> - Use media partners to create awareness of innovation
 				in the public.
 			</li>
 			<li>
