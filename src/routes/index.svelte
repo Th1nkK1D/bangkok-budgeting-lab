@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import AOS from 'aos';
 	import 'aos/dist/aos.css';
 	import { onMount } from 'svelte';
@@ -15,13 +16,13 @@
 
 <div
 	class="h-screen bg-cover"
-	style="background-image: url(/images/andreas-brucker-g5Uh7nP60FA-unsplash.webp)"
+	style="background-image: url({base}/images/andreas-brucker-g5Uh7nP60FA-unsplash.webp)"
 >
 	<div
 		class="w-full h-full flex flex-col justify-center items-center bg-black bg-opacity-60 text-white space-y-12"
 	>
 		<div class="flex flex-row items-end space-x-8" data-aos="fade-in">
-			<img src="/images/bbl-logo.webp" class="max-w-64 h-auto" alt="Bangkok Budgetting Lab" />
+			<img src="{base}/images/bbl-logo.webp" class="max-w-64 h-auto" alt="Bangkok Budgetting Lab" />
 			<h1 class="font-display text-6xl">Bangkok<br />Budgeting<br />Lab</h1>
 		</div>
 		<p class="text-lg max-w-lg text-center" data-aos="fade-in">
@@ -43,7 +44,7 @@
 			<li>Lack of public service provider mindset from the government</li>
 		</ol>
 		<div class="img-col">
-			<img src="/images/suchat.webp" alt="Suchat" class="w-36 h-36 rounded-full" />
+			<img src="{base}/images/suchat.webp" alt="Suchat" class="w-36 h-36 rounded-full" />
 			<p>
 				Meet <strong>Suchat</strong>, 25 years old Thai male who lives in Bangkok. He works as a
 				freelance programmer for 3 years. His family is a lower-middle-class living in a suburban
@@ -70,7 +71,7 @@
 			There are several stakeholders who are related to Bangkok's budgeting and tax system. We
 			analyze their power and supportiveness to find the allies.
 		</p>
-		<img src="/images/stakeholders.webp" alt="Stakeholders" class="w-full h-auto" />
+		<img src="{base}/images/stakeholders.webp" alt="Stakeholders" class="w-full h-auto" />
 		<p>According to the diagram, our living lab will work closely with 4 groups of stakeholders</p>
 		<ul>
 			<li data-aos="fade-in">
@@ -144,10 +145,10 @@
 					BBL will act as a <i>"broker and connector"</i> between the 4 main group of stakeholders.
 				</p>
 			</div>
-			<img src="images/quadruplehelix.webp" alt="Quadruple Helix Model" />
+			<img src="{base}/images/quadruplehelix.webp" alt="Quadruple Helix Model" />
 		</div>
 		<div class="img-col" data-aos="fade-left">
-			<img src="images/formit.webp" alt="FormIT Adaptation" />
+			<img src="{base}/images/formit.webp" alt="FormIT Adaptation" />
 			<div>
 				<p>
 					BBL project development process is adapted from the <a
@@ -221,7 +222,7 @@
 		</p>
 		<Gallery hover loading="lazy">
 			<img
-				src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632"
+				src="https:/{base}/images.unsplash.com/photo-1556761175-5973dc0f32e7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632"
 				alt="Co-working space"
 				class="!mb-0"
 			/>
@@ -230,9 +231,9 @@
 				alt="Co-working space"
 				class="!mb-0"
 			/>
-			<img src="/images/dragon-1.png" alt="Dragon Town" class="!mb-0" />
-			<img src="/images/dragon-3.png" alt="Dragon Town" class="!mb-0" />
-			<img src="/images/dragon-2.png" alt="Dragon Town" class="!mb-0" />
+			<img src="{base}/images/dragon-1.png" alt="Dragon Town" class="!mb-0" />
+			<img src="{base}/images/dragon-3.png" alt="Dragon Town" class="!mb-0" />
+			<img src="{base}/images/dragon-2.png" alt="Dragon Town" class="!mb-0" />
 		</Gallery>
 	</section>
 
