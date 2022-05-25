@@ -12,7 +12,7 @@
 	>
 		<div class="flex flex-row items-end space-x-8">
 			<img src="/images/bbl-logo.webp" class="max-w-64 h-auto" alt="Bangkok Budgetting Lab" />
-			<h1 class="font-display text-6xl">Bangkok<br />Budgetting<br />Lab</h1>
+			<h1 class="font-display text-6xl">Bangkok<br />Budgeting<br />Lab</h1>
 		</div>
 		<p class="text-lg max-w-lg text-center">
 			Let's take back the citizen power and design the future of Bangkok together with our living
