@@ -1,7 +1,16 @@
 <script lang="ts">
+	import AOS from 'aos';
+	import 'aos/dist/aos.css';
+	import { onMount } from 'svelte';
 	import Gallery from 'svelte-image-gallery';
 	import GanttChart from '../components/gantt-chart.svelte';
 	import PartnerList from '../components/partner-list.svelte';
+
+	onMount(() => {
+		AOS.init({
+			duration: 1000
+		});
+	});
 </script>
 
 <div
@@ -11,11 +20,11 @@
 	<div
 		class="w-full h-full flex flex-col justify-center items-center bg-black bg-opacity-60 text-white space-y-12"
 	>
-		<div class="flex flex-row items-end space-x-8">
+		<div class="flex flex-row items-end space-x-8" data-aos="fade-in">
 			<img src="/images/bbl-logo.webp" class="max-w-64 h-auto" alt="Bangkok Budgetting Lab" />
 			<h1 class="font-display text-6xl">Bangkok<br />Budgeting<br />Lab</h1>
 		</div>
-		<p class="text-lg max-w-lg text-center">
+		<p class="text-lg max-w-lg text-center" data-aos="fade-in">
 			Let's take back the citizen power and design the future of Bangkok together with our living
 			lab
 		</p>
@@ -23,7 +32,7 @@
 </div>
 
 <article class="prose w-full max-w-screen-lg mx-auto px-4 py-32 space-y-32">
-	<section>
+	<section data-aos="fade-up">
 		<h1>Why?</h1>
 		<p>
 			Bangkok Budgeting Lab aims to create multi-stakeholder co-creation environment to tackle
@@ -55,7 +64,7 @@
 		</blockquote>
 	</section>
 
-	<section>
+	<section data-aos="fade-up">
 		<h1>Stakeholders</h1>
 		<p>
 			There are several stakeholders who are related to Bangkok's budgeting and tax system. We
@@ -64,7 +73,7 @@
 		<img src="/images/stakeholders.webp" alt="Stakeholders" class="w-full h-auto" />
 		<p>According to the diagram, our living lab will work closely with 4 groups of stakeholders</p>
 		<ul>
-			<li>
+			<li data-aos="fade-in">
 				<strong>Government</strong> - We will work closely with opposition parties who can provide
 				public policy domain knowledge and push related policy in the parliament.
 				<PartnerList
@@ -82,7 +91,7 @@
 					]}
 				/>
 			</li>
-			<li>
+			<li data-aos="fade-in">
 				<strong>Industry</strong> - Technology companies can support us with technical staff and
 				knowledge, while social media and modern media companies can raise our project for broader
 				awareness.
@@ -101,7 +110,7 @@
 					]}
 				/>
 			</li>
-			<li>
+			<li data-aos="fade-in">
 				<strong>Academia</strong> - Educational institutes can use our living lab as a real-world
 				learning environment for students while academics will be useful during the project
 				development.
@@ -115,7 +124,7 @@
 					]}
 				/>
 			</li>
-			<li>
+			<li data-aos="fade-in">
 				<strong>Citizen</strong> - Everyone pays the tax. We are the expert on our own pain. The living
 				lab is open to everyone who wants to get involved, to make our city become a better place.
 			</li>
@@ -123,8 +132,8 @@
 	</section>
 
 	<section>
-		<h1>Inside the Living Lab</h1>
-		<div class="img-col">
+		<h1 data-aos="fade-up">Inside the Living Lab</h1>
+		<div class="img-col" data-aos="fade-right">
 			<div>
 				<p>
 					We will be an "enabler-driven" living lab by facilitating "strategy development through
@@ -137,7 +146,7 @@
 			</div>
 			<img src="images/quadruplehelix.webp" alt="Quadruple Helix Model" />
 		</div>
-		<div class="img-col">
+		<div class="img-col" data-aos="fade-left">
 			<img src="images/formit.webp" alt="FormIT Adaptation" />
 			<div>
 				<p>
@@ -161,7 +170,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="img-col">
+		<div class="img-col" data-aos="fade-right">
 			<div>
 				<p>
 					Since (budgeting) data is the core of our living lab, <a
@@ -192,7 +201,7 @@
 		</div>
 	</section>
 
-	<section>
+	<section data-aos="fade-up">
 		<h1>Location</h1>
 		<p>
 			Bangkok Budgeting Lab is located in the renovated area of Wangmai district next to
@@ -227,7 +236,7 @@
 		</Gallery>
 	</section>
 
-	<section>
+	<section data-aos="fade-up">
 		<h1>Action Plans</h1>
 		<GanttChart />
 		<p>
@@ -264,7 +273,7 @@
 		</ol>
 	</section>
 
-	<section>
+	<section data-aos="fade-up">
 		<h1>Budget Plans</h1>
 		<table>
 			<tr class="!border-darkgray">
