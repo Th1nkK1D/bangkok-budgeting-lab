@@ -6,6 +6,7 @@ export default defineConfig({
 			black: '#000000',
 			white: '#ffffff',
 			lightgray: '#EEEEEE',
+			darkgray: '#C6C6C6',
 			blue: '#3972BD',
 			purple: '#B73877',
 			yellow: '#F2C759'
@@ -23,6 +24,12 @@ export default defineConfig({
 						},
 						h2: {
 							'font-family': 'Chonburi, cursive'
+						},
+						a: {
+							color: '#3182ce',
+							'&:hover': {
+								color: '#2c5282'
+							}
 						}
 					}
 				}
