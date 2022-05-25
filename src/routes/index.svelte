@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Gallery from 'svelte-image-gallery';
 	import GanttChart from '../components/gantt-chart.svelte';
+	import PartnerList from '../components/partner-list.svelte';
 </script>
 
 <div
@@ -64,16 +65,55 @@
 		<p>According to the diagram, our living lab will work closely with 4 groups of stakeholders</p>
 		<ul>
 			<li>
-				<strong>Government</strong> - We will work closely with opposition parties who can provide public
-				policy domain knowledge and push related policy in the parliament.
+				<strong>Government</strong> - We will work closely with opposition parties who can provide
+				public policy domain knowledge and push related policy in the parliament.
+				<PartnerList
+					partners={[
+						[
+							'Move Forward Party',
+							'https://www.moveforwardparty.org/',
+							'https://www.moveforwardparty.org/wp-content/uploads/2021/03/400px-Move_Forward_Party_Logo.svg.png'
+						],
+						[
+							'Pheu Thai Party',
+							'https://ptp.or.th/',
+							'https://scontent-arn2-2.xx.fbcdn.net/v/t39.30808-6/241450009_4814391091927124_1340513056179491332_n.png?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=-fx-x2JMd1cAX_ZFbck&_nc_ht=scontent-arn2-2.xx&oh=00_AT8cKldmMeUui85QoUiN7G3VoL_jejlBw3QEurT5il50DA&oe=62939A40'
+						]
+					]}
+				/>
 			</li>
 			<li>
-				<strong>Industry</strong> - Technology companies can support us with technical staff and knowledge,
-				while social media and modern media companies can raise our project for broader awareness.
+				<strong>Industry</strong> - Technology companies can support us with technical staff and
+				knowledge, while social media and modern media companies can raise our project for broader
+				awareness.
+				<PartnerList
+					partners={[
+						[
+							'WeVis',
+							'https://wevis.info/',
+							'https://wevis.info/wp-content/themes/wevis/resources/images/logo-black.svg'
+						],
+						[
+							'iLaw',
+							'https://www.ilaw.or.th/',
+							'https://www.ilaw.or.th/sites/default/files/logo.png'
+						]
+					]}
+				/>
 			</li>
 			<li>
-				<strong>Academia</strong> - Educational institutes can use our living lab as a real-world learning
-				environment for students while academics will be useful during the project development.
+				<strong>Academia</strong> - Educational institutes can use our living lab as a real-world
+				learning environment for students while academics will be useful during the project
+				development.
+				<PartnerList
+					partners={[
+						[
+							'Chulalongkorn University',
+							'https://www.chula.ac.th/',
+							'https://www.ageneventagency.com/wp-content/uploads/2018/08/CU.png'
+						]
+					]}
+				/>
 			</li>
 			<li>
 				<strong>Citizen</strong> - Everyone pays the tax. We are the expert on our own pain. The living
